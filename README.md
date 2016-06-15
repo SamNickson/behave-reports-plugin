@@ -3,7 +3,7 @@
 
 [![Maven Dependencies](https://www.versioneye.com/user/projects/5663e781f376cc003d0009df/badge.svg)](https://www.versioneye.com/user/projects/5663e781f376cc003d0009df?child=summary)
 
-# Publish pretty [behave-jvm](http://pythonhosted.org/behave/index.html) reports on [Jenkins](http://jenkins-ci.org/)
+# Publish pretty [behave](http://pythonhosted.org/behave/index.html) reports on [Jenkins](http://jenkins-ci.org/)
 
 This is a Java Jenkins plugin which publishes [pretty html reports](https://github.com/willowmck/behave-reporting) showing the results of behave runs. Just make sure to use the json formatter, like this 'behave -f=json.pretty -o=reports/output.json'.
 
@@ -73,7 +73,7 @@ And you can drill down into tag specific reports:
 There are 4 advanced configuration options that can affect the outcome of the build status. Click on the Advanced tab in the configuration screen:
 
 ![Advanced Configuration]
-(https://github.com/jenkinsci/behave-reports-plugin/raw/master/.README/advanced_options.png)
+(https://github.com/willowmck/behave-reports-plugin/raw/master/.README/advanced_options.png)
 
 The first setting is Skipped steps fail the build - so if you tick this any steps that are skipped during executions will be marked as failed and will cause the build to fail:
 
