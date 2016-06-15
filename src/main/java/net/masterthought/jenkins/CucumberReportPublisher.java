@@ -96,7 +96,8 @@ public class CucumberReportPublisher extends Recorder implements SimpleBuildStep
         // target directory (always on master)
         File targetBuildDirectory = new File(build.getRootDir(), CucumberReportBaseAction.BASE_URL);
         if (!targetBuildDirectory.exists()) {
-            targetBuildDirectory.mkdirs();
+            if (!targetBuildDirectory.mkdirs())
+                listener.getLogger().println("[CucumberReportPublisher] Failed to create target directory!");
         }
 
         String buildNumber = Integer.toString(build.getNumber());
