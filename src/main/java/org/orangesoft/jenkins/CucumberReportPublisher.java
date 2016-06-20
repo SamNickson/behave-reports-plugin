@@ -45,8 +45,8 @@ import hudson.tasks.BuildStepMonitor;
 import hudson.tasks.Publisher;
 import hudson.tasks.Recorder;
 import hudson.util.FormValidation;
-import net.masterthought.cucumber.Configuration;
-import net.masterthought.cucumber.ReportBuilder;
+import org.orangesoft.behave.Configuration;
+import org.orangesoft.behave.ReportBuilder;
 
 public class CucumberReportPublisher extends Recorder implements SimpleBuildStep {
 

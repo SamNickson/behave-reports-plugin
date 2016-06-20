@@ -29,7 +29,7 @@ import org.kohsuke.stapler.StaplerResponse;
 import hudson.FilePath;
 import hudson.model.Action;
 import hudson.model.DirectoryBrowserSupport;
-import net.masterthought.cucumber.ReportBuilder;
+import org.orangesoft.behave.ReportBuilder;
 
 public abstract class CucumberReportBaseAction implements Action {
 
