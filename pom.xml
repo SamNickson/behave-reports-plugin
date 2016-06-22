@@ -11,7 +11,7 @@
 
     <groupId>org.orangesoft.jenkins</groupId>
     <artifactId>behave-reports</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>Behave reports</name>
@@ -107,7 +107,7 @@
         <dependency>
             <groupId>org.orangesoft</groupId>
             <artifactId>behave-reporting</artifactId>
-            <version>1.0</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
